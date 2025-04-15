@@ -97,7 +97,7 @@ virsh migrate --live --postcopy <vm-name> qemu+ssh://<destination-ip>/system
 ### Compile C program:
 ```bash
 gcc -o access_scan access_scan.c
-sudo ./access_scan <pid-of-vm-process>
+sudo ./access_scan <pid-of-vm-process> /tmp/hot_pages 5
 ```
 
 ### Send hot pages and migrate:
