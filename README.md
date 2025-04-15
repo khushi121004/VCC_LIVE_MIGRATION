@@ -12,7 +12,7 @@ We implemented:
 
 ---
 
-## ⚙️ Tools & Dependencies
+## Tools & Dependencies
 
 - Ubuntu 20.04+
 - KVM
@@ -25,7 +25,7 @@ We implemented:
 
 ---
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 ### 1. Install Required Packages
 ```bash
@@ -38,7 +38,7 @@ Use **virt-manager** to create a VM on the source machine.
 
 ---
 
-## 🔑 SSH Passwordless Setup
+## SSH Passwordless Setup
 
 On source machine:
 ```bash
@@ -92,7 +92,7 @@ virsh migrate --live --postcopy <vm-name> qemu+ssh://<destination-ip>/system
 
 ---
 
-## 🔍 Access Bit Scanning (Working Set Optimization)
+## Access Bit Scanning (Working Set Optimization)
 
 ### Compile C program:
 ```bash
@@ -108,7 +108,7 @@ sudo /access_bit.sh
 
 ---
 
-## 👥 Team Members
+## Team Members
 
 - **Avani Rai** – B22CS094  
 - **Manya** – B22CS032  
